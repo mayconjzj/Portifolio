@@ -4,9 +4,9 @@ import { Password } from './Password';
 
 describe('Password', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Password />);
+    const { baseElement, asFragment } = render(<Password />);
     expect(baseElement).toBeTruthy();
 
-    expect(baseElement).toMatchSnapshot();
+    expect(asFragment()).toMatchSnapshot();
   });
 });

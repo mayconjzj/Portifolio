@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <S.Container>
       <Logo />
-      <InputLength min={5} max={25} />
+      <InputLength />
       <Password />
     </S.Container>
   );
