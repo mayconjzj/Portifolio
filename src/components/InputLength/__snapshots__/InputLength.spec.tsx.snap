@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputLength should render successfully 1`] = `
+<body>
+  <div>
+    <div
+      class="flex flex-col w-[200px]"
+    >
+      <span>
+        Tamanho: 
+        <span>
+          10
+        </span>
+         Caracteres
+      </span>
+      <input
+        max="25"
+        min="5"
+        type="range"
+      />
+      <button>
+        Gerar Senha
+      </button>
+    </div>
+  </div>
+</body>
+`;

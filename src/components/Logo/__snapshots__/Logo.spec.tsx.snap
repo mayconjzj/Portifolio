@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo should render successfully 1`] = `
+<body>
+  <div>
+    <h1>
+      Gerador de Senhas
+    </h1>
+  </div>
+</body>
+`;

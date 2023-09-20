@@ -1,13 +1,15 @@
-import { Link } from '@/components/Link';
+import { InputLength } from '@/components/InputLength';
+import { Logo } from '@/components/Logo';
+import { Password } from '@/components/Password';
+
+import * as S from './styles';
 
 export default function Home() {
   return (
-    <main>
-      <div className="w-56 h-56 m-auto my-20 flex flex-col items-center gap-10">
-        <h1 className="text-center text-3xl font-black">Hello World</h1>
-
-        <Link href="/">Click</Link>
-      </div>
-    </main>
+    <S.Container>
+      <Logo />
+      <InputLength />
+      <Password />
+    </S.Container>
   );
 }
