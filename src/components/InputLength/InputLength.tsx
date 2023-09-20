@@ -1,13 +1,13 @@
 import * as S from './styles';
 
-export const InputLength = () => {
+export const InputLength = ({ ...props }) => {
   return (
     <S.Content>
       <span>
         Tamanho: <span>10</span> Caracteres
       </span>
 
-      <input type="range" min={5} max={25} />
+      <input type="range" {...props} />
 
       <button>Gerar Senha</button>
     </S.Content>
