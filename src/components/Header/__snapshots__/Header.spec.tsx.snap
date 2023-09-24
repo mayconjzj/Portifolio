@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render the header 1`] = `
+<DocumentFragment>
+  <header
+    class="flex justify-between items-center h-[100px] px-[100px]"
+  >
+    <div
+      class="flex justify-center flex-col"
+    >
+      <span
+        class="font-black text-[23px] text-blue-900"
+      >
+        MAYCON JZJ
+      </span>
+      <span
+        class="text-blue-900"
+      >
+        Desenvolvedor Front-End
+      </span>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          Home
+        </li>
+        <li>
+          Sobre mim
+        </li>
+        <li>
+          Projetos
+        </li>
+        <li>
+          Contato
+        </li>
+      </ul>
+    </nav>
+  </header>
+</DocumentFragment>
+`;

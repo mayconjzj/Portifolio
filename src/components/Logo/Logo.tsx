@@ -1,3 +1,10 @@
+import * as S from './styles';
+
 export const Logo = () => {
-  return <h1>Gerador de Senhas</h1>;
+  return (
+    <S.ContentLogo>
+      <S.Logo>MAYCON JZJ</S.Logo>
+      <S.Description>Desenvolvedor Front-End</S.Description>
+    </S.ContentLogo>
+  );
 };
