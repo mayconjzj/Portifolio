@@ -1,10 +1,10 @@
 import tw from 'tailwind-styled-components';
 
-export const Logo = tw.span`
+export const ContentLogo = tw.span`
   font-black text-[23px] text-blue-900
 `;
 
-export const ContentLogo = tw.div`
+export const Logo = tw.div`
   flex justify-center flex-col
 `;
 
