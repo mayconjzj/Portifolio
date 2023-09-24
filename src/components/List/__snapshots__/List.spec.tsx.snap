@@ -6,16 +6,32 @@ exports[`Header should render the header 1`] = `
     class="flex gap-x-7"
   >
     <li>
-      Home
+      <a
+        href="/"
+      >
+        Home
+      </a>
     </li>
     <li>
-      Sobre mim
+      <a
+        href="/about"
+      >
+        Sobre mim
+      </a>
     </li>
     <li>
-      Projetos
+      <a
+        href="/projects"
+      >
+        Projetos
+      </a>
     </li>
     <li>
-      Contato
+      <a
+        href="/contact"
+      >
+        Contato
+      </a>
     </li>
   </ul>
 </DocumentFragment>
