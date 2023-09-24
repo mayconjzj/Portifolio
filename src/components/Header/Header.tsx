@@ -1,4 +1,5 @@
 import { LogoConfig } from '@/config/Logo';
+import { MainNavConfig } from '@/config/MainNav';
 
 import { Logo } from '@/components/Logo';
 import { MainNav } from '@/components/MainNav';
@@ -13,7 +14,7 @@ export const Header = () => {
         Description={LogoConfig.Description}
       />
 
-      <MainNav />
+      <MainNav items={MainNavConfig} />
     </S.Header>
   );
 };

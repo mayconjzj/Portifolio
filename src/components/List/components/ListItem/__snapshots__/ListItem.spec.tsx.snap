@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render the header 1`] = `
+<DocumentFragment>
+  <li>
+    HomeSobre mimProjetosContato
+  </li>
+</DocumentFragment>
+`;

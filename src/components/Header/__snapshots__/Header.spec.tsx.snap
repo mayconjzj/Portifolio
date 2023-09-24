@@ -19,8 +19,12 @@ exports[`Header should render the header 1`] = `
         Desenvolvedor Front-End
       </span>
     </div>
-    <nav>
-      <ul>
+    <nav
+      class=""
+    >
+      <ul
+        class="flex gap-x-7"
+      >
         <li>
           Home
         </li>

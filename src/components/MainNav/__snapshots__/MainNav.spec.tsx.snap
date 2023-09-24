@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render the header 1`] = `
+<DocumentFragment>
+  <nav
+    class=""
+  >
+    <ul
+      class="flex gap-x-7"
+    >
+      <li>
+        Home
+      </li>
+      <li>
+        Sobre mim
+      </li>
+      <li>
+        Projetos
+      </li>
+      <li>
+        Contato
+      </li>
+    </ul>
+  </nav>
+</DocumentFragment>
+`;
