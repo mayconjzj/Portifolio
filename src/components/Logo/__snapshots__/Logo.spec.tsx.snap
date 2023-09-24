@@ -6,7 +6,7 @@ exports[`Logo should render the logo 1`] = `
     class="flex justify-center flex-col"
   >
     <span
-      class="font-black text-[23px] text-blue-900"
+      class="font-black text-[23px] text-blue-500"
     >
       MAYCON JZJ
     </span>

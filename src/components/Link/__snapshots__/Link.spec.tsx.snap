@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link should render the header 1`] = `
+<DocumentFragment>
+  <a
+    class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+  >
+    Home
+  </a>
+  <a
+    class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+  >
+    Sobre mim
+  </a>
+  <a
+    class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+  >
+    Projetos
+  </a>
+  <a
+    class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+  >
+    Contato
+  </a>
+</DocumentFragment>
+`;

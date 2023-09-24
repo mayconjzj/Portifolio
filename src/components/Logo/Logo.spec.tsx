@@ -6,12 +6,6 @@ import { Logo } from './Logo';
 
 describe('Logo', () => {
   it('should render the logo', () => {
-    render(
-      <Logo
-        ContentLogo={LogoConfig.ContentLogo}
-        Description={LogoConfig.Description}
-      />
-    );
     const { asFragment } = render(
       <Logo
         ContentLogo={LogoConfig.ContentLogo}

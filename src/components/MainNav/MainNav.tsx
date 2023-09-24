@@ -1,3 +1,4 @@
+import { Link } from '@/components/Link';
 import { List, ListItem } from '@/components/List';
 
 import { MainNavProps } from '@/models/MainNav';
@@ -10,8 +11,10 @@ export const MainNav = ({ items }: { items: MainNavProps[] }) => {
       <List>
         {items.map((item) => (
           <ListItem key={item.title}>
-            {item.icon && item.icon}
-            {item.title}
+            <Link href={item.href}>
+              {item.icon && item.icon}
+              {item.title}
+            </Link>
           </ListItem>
         ))}
       </List>

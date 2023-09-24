@@ -3,13 +3,13 @@
 exports[`Header should render the header 1`] = `
 <DocumentFragment>
   <header
-    class="flex justify-between items-center h-[100px] px-[100px]"
+    class="flex justify-between items-center h-[100px] px-[7%]"
   >
     <div
       class="flex justify-center flex-col"
     >
       <span
-        class="font-black text-[23px] text-blue-900"
+        class="font-black text-[23px] text-blue-500"
       >
         MAYCON JZJ
       </span>
@@ -26,16 +26,32 @@ exports[`Header should render the header 1`] = `
         class="flex gap-x-7"
       >
         <li>
-          Home
+          <a
+            class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+          >
+            Home
+          </a>
         </li>
         <li>
-          Sobre mim
+          <a
+            class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+          >
+            Sobre mim
+          </a>
         </li>
         <li>
-          Projetos
+          <a
+            class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+          >
+            Projetos
+          </a>
         </li>
         <li>
-          Contato
+          <a
+            class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+          >
+            Contato
+          </a>
         </li>
       </ul>
     </nav>

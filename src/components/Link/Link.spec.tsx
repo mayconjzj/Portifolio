@@ -2,20 +2,20 @@ import { render } from '@testing-library/react';
 
 import { MainNavConfig } from '@/config/MainNav';
 
-import { ListItem } from './components/ListItem';
-import { List } from './List';
+import { Link } from './Link';
 
-describe('Header', () => {
+describe('Link', () => {
   it('should render the header', () => {
     const { asFragment } = render(
-      <List>
+      <>
         {MainNavConfig.map((item) => (
-          <ListItem key={item.title}>{item.title}</ListItem>
+          <Link key={item.title} href={item.href}>
+            {item.icon && item.icon}
+            {item.title}
+          </Link>
         ))}
-      </List>
+      </>
     );
-    expect(asFragment()).toBeTruthy();
-
     expect(asFragment()).toMatchSnapshot();
   });
 });
