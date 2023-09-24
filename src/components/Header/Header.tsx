@@ -1,20 +1,19 @@
+import { LogoConfig } from '@/config/Logo';
+
 import { Logo } from '@/components/Logo';
+import { MainNav } from '@/components/MainNav';
 
 import * as S from './styles';
 
 export const Header = () => {
   return (
     <S.Header>
-      <Logo />
+      <Logo
+        ContentLogo={LogoConfig.ContentLogo}
+        Description={LogoConfig.Description}
+      />
 
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Sobre mim</li>
-          <li>Projetos</li>
-          <li>Contato</li>
-        </ul>
-      </nav>
+      <MainNav />
     </S.Header>
   );
 };

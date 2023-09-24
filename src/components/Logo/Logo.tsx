@@ -1,12 +1,12 @@
-import { LogoConfig } from '@/config/Logo';
+import { LogoProps } from '@/models/Logo';
 
 import * as S from './styles';
 
-export const Logo = () => {
+export const Logo = ({ ContentLogo, Description }: LogoProps) => {
   return (
     <S.Logo>
-      <S.ContentLogo>{LogoConfig.ContentLogo}</S.ContentLogo>
-      <S.Description>{LogoConfig.Description}</S.Description>
+      <S.ContentLogo>{ContentLogo}</S.ContentLogo>
+      {Description && <S.Description>{Description}</S.Description>}
     </S.Logo>
   );
 };
