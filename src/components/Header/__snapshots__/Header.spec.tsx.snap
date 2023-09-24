@@ -9,7 +9,7 @@ exports[`Header should render the header 1`] = `
       class="flex justify-center flex-col"
     >
       <span
-        class="font-black text-[23px] text-blue-500"
+        class="font-black text-[25px] text-blue-500"
       >
         MAYCON JZJ
       </span>
