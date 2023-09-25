@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <S.Container>
       <div>
-        <h1 className="text-4xl font-black text-slate-100">
+        <h1 className="text-5xl font-black text-slate-100">
           Desenvolvedor <br /> Front-End
         </h1>
         <p className="text-slate-400 w-[400px] text-justify">
@@ -13,6 +13,18 @@ export default function Home() {
           minhas habilidades e aprender novas técnicas para me destacar nessa
           área em constante evolução.
         </p>
+        <div className="flex gap-[5px] my-5">
+          <button className="font-medium bg-[#eee] text-blue-500 text-[16px] px-[10px] py-[5px] rounded">
+            CONTATO
+          </button>
+          <button className="font-medium transition-colors delay-150 hover:bg-[#eee] hover:text-blue-500 text-white text-[16px] border-solid border-[1px] border-white px-[10px] py-[5px] rounded">
+            DOWNLOAD CV
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <div className="w-[250px] h-[250px] bg-slate-600"></div>
       </div>
     </S.Container>
   );
