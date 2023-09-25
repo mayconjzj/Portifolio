@@ -1,8 +1,6 @@
 import tw from 'tailwind-styled-components';
 
-export const Container = tw.main``;
-
-export const Content = tw.main`
+export const Container = tw.section`
   bg-blue-900
   h-[500px]
   px-[7%]

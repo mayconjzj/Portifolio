@@ -3,7 +3,7 @@ import * as S from './styles';
 export default function Home() {
   return (
     <S.Container>
-      <S.Content>
+      <div>
         <h1 className="text-4xl font-black text-slate-100">
           Desenvolvedor <br /> Front-End
         </h1>
@@ -13,7 +13,7 @@ export default function Home() {
           minhas habilidades e aprender novas técnicas para me destacar nessa
           área em constante evolução.
         </p>
-      </S.Content>
+      </div>
     </S.Container>
   );
 }
