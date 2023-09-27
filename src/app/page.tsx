@@ -1,3 +1,5 @@
+import { HomePage } from '@/config/HomePage';
+
 import { Button } from '@/components/Button';
 
 import * as S from './styles';
@@ -6,24 +8,22 @@ export default function Home() {
   return (
     <S.Container>
       <div>
-        <h1 className="text-6xl font-black text-slate-100 max-w-[600px] flex flex-wrap gap-7 mx-auto justify-center">
-          <span>Olá, eu sou</span> <span>Maycon Douglas</span>{' '}
-          <span>Desenvolvedor Web</span>
+        <h1 className="md:text-6xl text-5xl font-black text-slate-100 md:max-w-2xl max-w-lg flex flex-wrap md:gap-y-7 gap-y-4 mx-auto justify-center">
+          {HomePage.ContentTitle.slice(0, 11)}
+          <span>{HomePage.ContentTitle.slice(12, 26)}</span>
+          {HomePage.ContentTitle.slice(27)}
         </h1>
       </div>
 
       <div>
-        <p className="text-slate-400 w-[500px] text-center">
-          Sou um estudante de Front-End dedicado e apaixonado por criar
-          experiências digitais incríveis. Estou sempre em busca de aprimorar
-          minhas habilidades e aprender novas técnicas para me destacar nessa
-          área em constante evolução.
+        <p className="text-gray-500 md:w-[500px] w-96 text-center">
+          {HomePage.Description}
         </p>
       </div>
 
       <div className="flex gap-4 justify-center">
-        <Button>CONTATO</Button>
-        <Button>DOWNLOAD CV</Button>
+        <Button>{HomePage.links.contactMe}</Button>
+        <Button>{HomePage.links.downloadCV}</Button>
       </div>
     </S.Container>
   );
