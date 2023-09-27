@@ -6,8 +6,8 @@ import { MainNavConfig } from '@/config/MainNav';
 
 import { ListItem } from './ListItem';
 
-describe('Header', () => {
-  it('should render the header', () => {
+describe('ListItem', () => {
+  it('should render the listitem', () => {
     const { asFragment } = render(
       <>
         {MainNavConfig.map((item) => (

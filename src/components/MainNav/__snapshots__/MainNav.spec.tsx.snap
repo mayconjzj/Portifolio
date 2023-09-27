@@ -11,6 +11,7 @@ exports[`Header should render the header 1`] = `
       <li>
         <a
           class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+          isactive="false"
         >
           Home
         </a>
@@ -18,6 +19,7 @@ exports[`Header should render the header 1`] = `
       <li>
         <a
           class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+          isactive="false"
         >
           Sobre mim
         </a>
@@ -25,6 +27,7 @@ exports[`Header should render the header 1`] = `
       <li>
         <a
           class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+          isactive="false"
         >
           Projetos
         </a>
@@ -32,6 +35,7 @@ exports[`Header should render the header 1`] = `
       <li>
         <a
           class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+          isactive="false"
         >
           Contato
         </a>

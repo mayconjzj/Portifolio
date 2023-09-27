@@ -4,21 +4,25 @@ exports[`Link should render the header 1`] = `
 <DocumentFragment>
   <a
     class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+    isactive="false"
   >
     Home
   </a>
   <a
     class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+    isactive="false"
   >
     Sobre mim
   </a>
   <a
     class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+    isactive="false"
   >
     Projetos
   </a>
   <a
     class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+    isactive="false"
   >
     Contato
   </a>

@@ -15,7 +15,7 @@ export const Link = ({ children, href, ...rest }: LinkProps) => {
 
   return (
     <NextLink href={href} {...rest} legacyBehavior>
-      <S.ContentLink isActive={isActive}>{children}</S.ContentLink>
+      <S.ContentLink isactive={isActive.toString()}>{children}</S.ContentLink>
     </NextLink>
   );
 };

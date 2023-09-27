@@ -5,7 +5,7 @@ import { MainNavConfig } from '@/config/MainNav';
 import { Link } from './Link';
 
 describe('Link', () => {
-  it('should render the header', () => {
+  it('should render the link', () => {
     const { asFragment } = render(
       <>
         {MainNavConfig.map((item) => (

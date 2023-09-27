@@ -4,8 +4,8 @@ import { MainNavConfig } from '@/config/MainNav';
 
 import { MainNav } from './MainNav';
 
-describe('Header', () => {
-  it('should render the header', () => {
+describe('MainNav', () => {
+  it('should render the mainnav', () => {
     const { asFragment } = render(<MainNav items={MainNavConfig} />);
     expect(asFragment()).toBeTruthy();
 
