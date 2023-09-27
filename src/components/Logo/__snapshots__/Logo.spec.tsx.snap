@@ -1,20 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Logo should render the logo 1`] = `
-<DocumentFragment>
+<div>
   <div
     class="flex justify-center flex-col"
   >
     <span
       class="font-black text-[25px] text-blue-500"
     >
-      TESTE
+      Next test
     </span>
     <span
       class="text-blue-900"
     >
-      TESTE
+      Next test
     </span>
   </div>
-</DocumentFragment>
+</div>
 `;

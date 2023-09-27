@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`List should render the list 1`] = `
-<DocumentFragment>
+<div>
   <ul
     class="flex gap-x-7"
   >
-    TESTE
+    Next test
   </ul>
-</DocumentFragment>
+</div>
 `;
