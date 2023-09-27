@@ -17,7 +17,7 @@ export default function Home() {
         </p>
         <div className="flex gap-[5px] my-5">
           <Button>CONTATO</Button>
-          <Button>PORTFOLIO</Button>
+          <Button>DOWNLOAD CV</Button>
         </div>
       </div>
 
