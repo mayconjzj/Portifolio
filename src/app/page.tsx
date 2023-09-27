@@ -1,3 +1,5 @@
+import { Button } from '@/components/Button';
+
 import * as S from './styles';
 
 export default function Home() {
@@ -14,12 +16,8 @@ export default function Home() {
           área em constante evolução.
         </p>
         <div className="flex gap-[5px] my-5">
-          <button className="font-medium bg-[#eee] text-blue-500 text-[16px] px-[10px] py-[5px] rounded">
-            CONTATO
-          </button>
-          <button className="font-medium transition-colors delay-150 hover:bg-[#eee] hover:text-blue-500 text-white text-[16px] border-solid border-[1px] border-white px-[10px] py-[5px] rounded">
-            DOWNLOAD CV
-          </button>
+          <Button>CONTATO</Button>
+          <Button>PORTFOLIO</Button>
         </div>
       </div>
 
