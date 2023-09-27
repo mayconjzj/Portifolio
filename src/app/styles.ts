@@ -1,11 +1,10 @@
 import tw from 'tailwind-styled-components';
 
 export const Container = tw.section`
-  bg-blue-900
-  h-[500px]
-  px-[10%]
+  h-[calc(100vh-60px)]
   flex
-  flex-wrap
+  flex-col
+  gap-y-10
   items-center
-  justify-between
+  justify-center
 `;

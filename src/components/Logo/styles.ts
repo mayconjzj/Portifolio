@@ -1,9 +1,8 @@
 import tw from 'tailwind-styled-components';
 
 export const ContentLogo = tw.span`
-  font-black
-  text-[25px]
-  text-blue-500
+  font-medium
+  text-[20px]
 `;
 
 export const Logo = tw.div`

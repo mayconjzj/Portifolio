@@ -9,10 +9,7 @@ import * as S from './styles';
 export const Header = () => {
   return (
     <S.Header>
-      <Logo
-        ContentLogo={LogoConfig.ContentLogo}
-        Description={LogoConfig.Description}
-      />
+      <Logo ContentLogo={LogoConfig.ContentLogo} />
 
       <MainNav items={MainNavConfig} />
     </S.Header>
