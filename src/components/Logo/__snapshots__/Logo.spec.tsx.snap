@@ -5,16 +5,20 @@ exports[`Logo should render the logo 1`] = `
   <div
     class="flex justify-center flex-col"
   >
-    <span
-      class="font-black text-[25px] text-blue-500"
+    <a
+      href="/"
     >
-      Next test
-    </span>
-    <span
-      class="text-blue-900"
-    >
-      Next test
-    </span>
+      <span
+        class="font-medium text-[20px]"
+      >
+        Next test
+      </span>
+      <span
+        class="text-blue-900"
+      >
+        Next test
+      </span>
+    </a>
   </div>
 </div>
 `;

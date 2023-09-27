@@ -3,31 +3,30 @@
 exports[`Header should render the header 1`] = `
 <div>
   <header
-    class="flex justify-between items-center h-[100px] px-[7%]"
+    class="flex justify-between items-center h-[60px] px-[10%]"
   >
     <div
       class="flex justify-center flex-col"
     >
-      <span
-        class="font-black text-[25px] text-blue-500"
+      <a
+        href="/"
       >
-        MAYCON JZJ
-      </span>
-      <span
-        class="text-blue-900"
-      >
-        Desenvolvedor Front-End
-      </span>
+        <span
+          class="font-medium text-[20px]"
+        >
+          Maycon Douglas
+        </span>
+      </a>
     </div>
     <nav
-      class=""
+      class="md:flex hidden"
     >
       <ul
         class="flex gap-x-7"
       >
         <li>
           <a
-            class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+            class="hover:border-b-2 hover:border-white cursor-pointer py-[2px] font-medium text-white transition-colors delay-150"
             isactive="false"
           >
             Home
@@ -35,7 +34,7 @@ exports[`Header should render the header 1`] = `
         </li>
         <li>
           <a
-            class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+            class="hover:border-b-2 hover:border-white cursor-pointer py-[2px] font-medium text-white transition-colors delay-150"
             isactive="false"
           >
             Sobre mim
@@ -43,7 +42,15 @@ exports[`Header should render the header 1`] = `
         </li>
         <li>
           <a
-            class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+            class="hover:border-b-2 hover:border-white cursor-pointer py-[2px] font-medium text-white transition-colors delay-150"
+            isactive="false"
+          >
+            Tecnologias
+          </a>
+        </li>
+        <li>
+          <a
+            class="hover:border-b-2 hover:border-white cursor-pointer py-[2px] font-medium text-white transition-colors delay-150"
             isactive="false"
           >
             Projetos
@@ -51,7 +58,7 @@ exports[`Header should render the header 1`] = `
         </li>
         <li>
           <a
-            class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+            class="hover:border-b-2 hover:border-white cursor-pointer py-[2px] font-medium text-white transition-colors delay-150"
             isactive="false"
           >
             Contato
@@ -59,6 +66,11 @@ exports[`Header should render the header 1`] = `
         </li>
       </ul>
     </nav>
+    <div
+      class="md:hidden flex"
+    >
+      x
+    </div>
   </header>
 </div>
 `;

@@ -3,14 +3,14 @@
 exports[`MainNav should render the mainnav 1`] = `
 <div>
   <nav
-    class=""
+    class="md:flex hidden"
   >
     <ul
       class="flex gap-x-7"
     >
       <li>
         <a
-          class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
+          class="hover:border-b-2 hover:border-white cursor-pointer py-[2px] font-medium text-white transition-colors delay-150"
           isactive="false"
         >
           Next test
@@ -18,5 +18,10 @@ exports[`MainNav should render the mainnav 1`] = `
       </li>
     </ul>
   </nav>
+  <div
+    class="md:hidden flex"
+  >
+    x
+  </div>
 </div>
 `;
