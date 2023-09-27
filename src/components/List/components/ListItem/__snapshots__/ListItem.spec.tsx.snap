@@ -1,34 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header should render the header 1`] = `
+exports[`ListItem should render the listitem 1`] = `
 <DocumentFragment>
   <li>
-    <a
-      href="/"
-    >
-      Home
-    </a>
-  </li>
-  <li>
-    <a
-      href="/about"
-    >
-      Sobre mim
-    </a>
-  </li>
-  <li>
-    <a
-      href="/projects"
-    >
-      Projetos
-    </a>
-  </li>
-  <li>
-    <a
-      href="/contact"
-    >
-      Contato
-    </a>
+    TESTE
   </li>
 </DocumentFragment>
 `;

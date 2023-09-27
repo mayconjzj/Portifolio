@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header should render the header 1`] = `
+exports[`MainNav should render the mainnav 1`] = `
 <DocumentFragment>
   <nav
     class=""
@@ -13,31 +13,7 @@ exports[`Header should render the header 1`] = `
           class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
           isactive="false"
         >
-          Home
-        </a>
-      </li>
-      <li>
-        <a
-          class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
-          isactive="false"
-        >
-          Sobre mim
-        </a>
-      </li>
-      <li>
-        <a
-          class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
-          isactive="false"
-        >
-          Projetos
-        </a>
-      </li>
-      <li>
-        <a
-          class="text-[#222] hover:text-blue-500 transition delay-150 cursor-pointer font-medium"
-          isactive="false"
-        >
-          Contato
+          TESTE
         </a>
       </li>
     </ul>
