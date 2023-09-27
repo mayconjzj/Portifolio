@@ -10,6 +10,10 @@ export const MainNavConfig: MainNavProps[] = [
     href: '/about'
   },
   {
+    title: 'Tecnologias',
+    href: '/'
+  },
+  {
     title: 'Projetos',
     href: '/projects'
   },
