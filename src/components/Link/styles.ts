@@ -3,7 +3,15 @@
 import tw from 'tailwind-styled-components';
 
 export const ContentLink = tw.a<{ isactive: string }>`
-  cursor-pointer
-  font-medium
-  text-white
+  ${({ isactive }) => ` 
+    ${isactive === 'true' ? 'border-b-2 border-white' : ''}
+    hover:border-b-2
+    hover:border-white
+    cursor-pointer
+    py-[2px]
+    font-medium
+    text-white
+    transition-colors
+    delay-150
+  `}
 `;
