@@ -10,6 +10,6 @@ export const Button = tw.button`
   py-2
   px-4
   transition-colors
-  delay-150
+  duration-300
   hover:bg-blue-500
 `;
