@@ -1,23 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`MainNav should render the mainnav 1`] = `
+exports[`ToggleButton should render the mainnav 1`] = `
 <div>
-  <nav
-    class="md:flex hidden"
-  >
-    <ul
-      class="flex gap-x-7"
-    >
-      <li>
-        <a
-          class="hover:border-b-2 hover:border-white cursor-pointer py-[2px] font-medium text-white transition-colors delay-150"
-          isactive="false"
-        >
-          Next test
-        </a>
-      </li>
-    </ul>
-  </nav>
   <div
     class="md:hidden flex text-3xl"
   >
