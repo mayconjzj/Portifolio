@@ -11,11 +11,11 @@ export const Container = tw.section`
 
 export const ContentTextTitle = tw.h1`
   md:text-6xl
-  text-5xl
+  text-4xl
   font-black 
   text-slate-100
   md:max-w-2xl
-  max-w-lg
+  max-w-md
   flex
   flex-wrap
   md:gap-y-7
@@ -25,7 +25,8 @@ export const ContentTextTitle = tw.h1`
 `;
 
 export const ContentTextGradient = tw.span`
-  h-[70px]
+  md:h-[70px]
+  h-[43px]
   bg-gradient-to-r
   from-blue-500
   to-pink-500
@@ -36,7 +37,7 @@ export const ContentTextGradient = tw.span`
 export const ContentTextDescription = tw.p`
   text-gray-500
   md:w-[500px]
-  w-96
+  w-[300px]
   text-center
 `;
 

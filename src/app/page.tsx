@@ -1,4 +1,4 @@
-import { HomePage } from '@/config/HomePage';
+import { HomePage } from '@/config';
 
 import { Button } from '@/components/Button';
 

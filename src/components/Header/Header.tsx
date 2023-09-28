@@ -1,5 +1,4 @@
-import { LogoConfig } from '@/config/Logo';
-import { MainNavConfig } from '@/config/MainNav';
+import { LogoConfig, MainNavConfig } from '@/config';
 
 import { Logo } from '@/components/Logo';
 import { MainNav } from '@/components/MainNav';

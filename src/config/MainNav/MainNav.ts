@@ -1,4 +1,4 @@
-import { MainNavProps } from '@/models/MainNav';
+import { MainNavProps } from '@/models';
 
 export const MainNavConfig: MainNavProps[] = [
   {
