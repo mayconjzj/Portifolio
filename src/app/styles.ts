@@ -29,9 +29,12 @@ export const ContentTextGradient = tw.span`
   h-[43px]
   bg-gradient-to-r
   from-blue-500
+  via-purple-500
   to-pink-500
   bg-clip-text
   text-transparent
+  bg-[length:170%]
+  animate-[gradient_5s_ease-in-out_infinite]
 `;
 
 export const ContentTextDescription = tw.p`
