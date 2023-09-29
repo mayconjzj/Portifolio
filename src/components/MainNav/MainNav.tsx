@@ -1,5 +1,6 @@
 'use client';
 
+import { Icon } from '@/components/Icon';
 import { Link } from '@/components/Link';
 import { List, ListItem } from '@/components/List';
 
@@ -18,9 +19,8 @@ export const MainNav = ({ items }: { items: MainNavProps[] }) => {
         <List>
           {items.map((item) => (
             <ListItem key={item.title}>
-              <Link href={item.href}>
-                {item.icon && item.icon}
-                {item.title}
+              <Link href={item.href} target={item.target}>
+                {item.icon && item.icon ? <Icon>{item.icon}</Icon> : item.title}
               </Link>
             </ListItem>
           ))}
