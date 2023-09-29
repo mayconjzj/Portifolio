@@ -3,7 +3,7 @@
 exports[`Link should render the link 1`] = `
 <div>
   <a
-    class="hover:border-b-2 hover:border-white cursor-pointer py-[2px] font-medium text-white transition-colors delay-150"
+    class="text-gray-300 cursor-pointer py-[2px] font-medium hover:text-white transition-colors duration-300"
     isactive="false"
   >
     Next test

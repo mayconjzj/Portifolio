@@ -1,7 +1,6 @@
-import { HomePage } from './config';
-
 import { Button } from '@/components/Button';
 
+import { HomePage } from './config';
 import * as S from './styles';
 
 export default function Home() {

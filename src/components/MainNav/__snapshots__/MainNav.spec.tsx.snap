@@ -10,7 +10,7 @@ exports[`MainNav should render the mainnav 1`] = `
     >
       <li>
         <a
-          class="hover:border-b-2 hover:border-white cursor-pointer py-[2px] font-medium text-white transition-colors delay-150"
+          class="text-gray-300 cursor-pointer py-[2px] font-medium hover:text-white transition-colors duration-300"
           isactive="false"
         >
           Next test
