@@ -20,7 +20,8 @@ export const MainNav = ({ items }: { items: MainNavProps[] }) => {
           {items.map((item) => (
             <ListItem key={item.title}>
               <Link href={item.href} target={item.target}>
-                {item.icon && item.icon ? <Icon>{item.icon}</Icon> : item.title}
+                {item.icon && <Icon>{item.icon}</Icon>}
+                {item.title && item.title}
               </Link>
             </ListItem>
           ))}

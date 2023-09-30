@@ -1,13 +1,15 @@
 import { FooterConfig } from '@/config';
 
-import { MainNav } from '../MainNav';
+import { Icon } from '../Icon';
 import * as S from './styles';
 
 export const Footer = () => {
   return (
     <S.Footer>
       <S.Content>
-        <MainNav items={FooterConfig} />
+        {FooterConfig.map((item) => (
+          <Icon key={item.title} icon={item.icon} />
+        ))}
       </S.Content>
     </S.Footer>
   );

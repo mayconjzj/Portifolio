@@ -1,8 +1,8 @@
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
-import { MainNavProps } from '@/models';
+import { FooterProps } from '@/models';
 
-export const FooterConfig: MainNavProps[] = [
+export const FooterConfig: FooterProps[] = [
   {
     title: 'GitHub',
     href: 'https://github.com/mayconjzj',
