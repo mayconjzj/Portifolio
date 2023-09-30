@@ -7,15 +7,13 @@ import { LinkProps } from '@/models';
 
 import * as S from './styles';
 
-export const Link = ({ children, href, target, ...rest }: LinkProps) => {
+export const Link = ({ children, href, ...rest }: LinkProps) => {
   const asPath = usePathname();
   const isActive = asPath === href;
 
   return (
     <NextLink href={href} {...rest} legacyBehavior>
-      <S.ContentLink isactive={isActive.toString()} target={target}>
-        {children}
-      </S.ContentLink>
+      <S.ContentLink isactive={isActive.toString()}>{children}</S.ContentLink>
     </NextLink>
   );
 };

@@ -3,4 +3,4 @@ export type FooterProps = {
   href: string;
   target?: string;
   icon?: React.ReactNode;
-}
+};

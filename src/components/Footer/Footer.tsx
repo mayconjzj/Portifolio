@@ -8,7 +8,9 @@ export const Footer = () => {
     <S.Footer>
       <S.Content>
         {FooterConfig.map((item) => (
-          <Icon key={item.title} icon={item.icon} />
+          <a key={item.title} href={item.href} target={item.target}>
+            <Icon key={item.title} icon={item.icon} />
+          </a>
         ))}
       </S.Content>
     </S.Footer>
