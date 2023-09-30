@@ -3,7 +3,7 @@
 exports[`Header should render the header 1`] = `
 <div>
   <header
-    class="flex justify-between items-center h-[60px] px-[10%]"
+    class="flex justify-between items-center h-[60px] w-screen px-[10%] bg-black fixed top-0"
   >
     <div
       class="flex justify-center flex-col"
