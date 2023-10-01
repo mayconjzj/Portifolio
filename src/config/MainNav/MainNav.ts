@@ -3,18 +3,18 @@ import { MainNavProps } from '@/models';
 export const MainNavConfig: MainNavProps[] = [
   {
     title: 'Home',
-    href: '/'
+    href: '#home'
   },
   {
     title: 'Sobre mim',
-    href: '/about'
+    href: '#about'
   },
   {
     title: 'Projetos',
-    href: '/projects'
+    href: '#projects'
   },
   {
     title: 'Contato',
-    href: '/contact'
+    href: '#contact'
   }
 ];

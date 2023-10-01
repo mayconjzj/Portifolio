@@ -5,8 +5,8 @@ import * as S from './styles';
 
 export default function Home() {
   return (
-    <>
-      <S.Container>
+    <S.Container>
+      <S.ContentHome id="home">
         <div>
           <S.ContentTextTitle>
             {HomePage.ContentTitle.slice(0, 11)}
@@ -27,7 +27,7 @@ export default function Home() {
           <Button>{HomePage.links.contactMe}</Button>
           <Button>{HomePage.links.downloadCV}</Button>
         </S.ContentBoxButton>
-      </S.Container>
-    </>
+      </S.ContentHome>
+    </S.Container>
   );
 }

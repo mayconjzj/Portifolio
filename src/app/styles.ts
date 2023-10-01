@@ -1,12 +1,17 @@
 import tw from 'tailwind-styled-components';
 
-export const Container = tw.section`
-  h-[100vh]
+export const Container = tw.article`
   flex
   flex-col
-  gap-y-10
+`;
+
+export const ContentHome = tw.section`
+  h-screen
+  flex
+  flex-col
   items-center
   justify-center
+  gap-y-10
 `;
 
 export const ContentTextTitle = tw.h1`
