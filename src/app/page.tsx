@@ -39,21 +39,19 @@ export default function Home() {
         <h1 className="text-4xl font-black">Sobre mim</h1>
 
         <div className="flex lg:flex-row flex-col justify-between gap-10">
-          <div className="flex flex-col gap-y-2">
+          <div className="flex flex-col gap-y-2 text-justify">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-              itaque. Expedita velit deserunt iusto error atque autem. Magnam
-              iusto amet cum velit odio! Optio dignissimos, voluptatibus dolores
-              iusto modi dolorum!
-            </p>
-          </div>
-
-          <div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-              vero blanditiis omnis porro dignissimos excepturi, expedita esse
-              molestias nulla, alias doloribus voluptatum possimus perferendis
-              aut repudiandae labore cumque qui corrupti?
+              Meu nome é Maycon Douglas, tenho 16 anos e resido em Boa Vista,
+              Roraima, embora tenha nascido em Marabá, Pará, e me mudei para Boa
+              Vista com 2 anos de idade. Minha paixão pela tecnologia me levou a
+              dominar tecnologias como Next.js, React, Tailwind CSS,
+              Styled-Components e Typescript. Atualmente, estou buscando minha
+              primeira oportunidade de estágio, onde espero aplicar meu
+              conhecimento e contribuir para projetos inovadores. Minha
+              abordagem é baseada na determinação e não necessáriamente com
+              desenvolvimento profissional. Estou ansioso pelas minhas
+              oportunidades futuras e pelas conexões valiosas que farei ao longo
+              da jornada.
             </p>
           </div>
         </div>
