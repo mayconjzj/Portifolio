@@ -46,26 +46,15 @@ export default function Home() {
               iusto amet cum velit odio! Optio dignissimos, voluptatibus dolores
               iusto modi dolorum!
             </p>
-
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-              voluptate accusantium iusto consequuntur sed laboriosam. Pariatur
-              unde laborum sed, ducimus tenetur vitae delectus sequi praesentium
-              autem magni, quasi alias facilis?
-            </p>
-
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
-              sit eaque voluptate consequuntur nesciunt id iste qui, fuga
-              numquam maxime aliquid perferendis, earum quibusdam odio nobis
-              eum, labore unde tempora?
-            </p>
           </div>
 
           <div>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto nemo
-            odio, impedit id nesciunt sapiente, ex amet eum, quo veniam deleniti
-            dignissimos eius? Nulla possimus voluptatum iure ipsa modi quo.
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+              vero blanditiis omnis porro dignissimos excepturi, expedita esse
+              molestias nulla, alias doloribus voluptatum possimus perferendis
+              aut repudiandae labore cumque qui corrupti?
+            </p>
           </div>
         </div>
       </section>
