@@ -10,7 +10,7 @@ export default function Home() {
         <div>
           <h1 className="md:text-6xl text-4xl font-black text-slate-100 md:max-w-2xl max-w-md flex flex-wrap md:gap-y-7 gap-y-4 mx-auto justify-center">
             Olá, eu sou
-            <span className="md:h-[70px] h-[43px]bg-gradient-to-r  from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent bg-[length:170%] animate-[gradient_5s_ease-in-out_infinite]">
+            <span className="md:h-[70px] h-[43px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent bg-[length:170%] animate-[gradient_5s_ease-in-out_infinite]">
               Maycon Douglas
             </span>
             Desenvolvedor Web
@@ -39,7 +39,7 @@ export default function Home() {
         <h1 className="text-4xl font-black">Sobre mim</h1>
 
         <div className="flex lg:flex-row flex-col justify-between gap-10">
-          <section className="flex flex-col gap-y-2">
+          <div className="flex flex-col gap-y-2">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
               itaque. Expedita velit deserunt iusto error atque autem. Magnam
@@ -60,13 +60,13 @@ export default function Home() {
               numquam maxime aliquid perferendis, earum quibusdam odio nobis
               eum, labore unde tempora?
             </p>
-          </section>
+          </div>
 
-          <section className="">
+          <div>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto nemo
             odio, impedit id nesciunt sapiente, ex amet eum, quo veniam deleniti
             dignissimos eius? Nulla possimus voluptatum iure ipsa modi quo.
-          </section>
+          </div>
         </div>
       </section>
     </article>
