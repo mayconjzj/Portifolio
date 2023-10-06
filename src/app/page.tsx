@@ -2,7 +2,7 @@ import { Button } from '@/components/Button';
 
 export default function Home() {
   return (
-    <article className="flex flex-col">
+    <article className="flex flex-col mb-[35px]">
       <section
         id="home"
         className="h-screen flex flex-col items-center justify-center gap-y-10"
@@ -32,29 +32,39 @@ export default function Home() {
         </div>
       </section>
 
-      <section
-        id="about"
-        className="h-[calc(100vh-60px)] px-[10%] flex flex-col gap-y-10"
-      >
-        <h1 className="text-4xl font-black">Sobre mim</h1>
+      <section className="flex md:flex-row flex-col gap-10 justify-evenly px-[10%]">
+        <article id="about" className="flex flex-col gap-y-5 w-[100%]">
+          <h1 className="text-3xl font-bold text-center">Sobre mim</h1>
 
-        <div className="flex lg:flex-row flex-col justify-between gap-10">
-          <div className="flex flex-col gap-y-2 text-justify">
-            <p>
-              Meu nome é Maycon Douglas, tenho 16 anos e resido em Boa Vista,
-              Roraima, embora tenha nascido em Marabá, Pará, e me mudei para Boa
-              Vista com 2 anos de idade. Minha paixão pela tecnologia me levou a
-              dominar tecnologias como Next.js, React, Tailwind CSS,
-              Styled-Components e Typescript. Atualmente, estou buscando minha
-              primeira oportunidade de estágio, onde espero aplicar meu
-              conhecimento e contribuir para projetos inovadores. Minha
-              abordagem é baseada na determinação e não necessáriamente com
-              desenvolvimento profissional. Estou ansioso pelas minhas
-              oportunidades futuras e pelas conexões valiosas que farei ao longo
-              da jornada.
-            </p>
+          <p className="text-center">
+            Meu nome é Maycon Douglas, tenho 16 anos e resido em Boa Vista,
+            Roraima, Minha paixão pela tecnologia me levou a dominar tecnologias
+            como Next.js, React, Tailwind CSS, Styled-Components e Typescript.
+            Atualmente, estou buscando minha primeira oportunidade de estágio,
+            onde espero aplicar meu conhecimento e contribuir para projetos
+            inovadores.
+          </p>
+        </article>
+
+        <article id="skills" className="flex flex-col gap-y-5  w-[100%]">
+          <h1 className="text-3xl font-bold text-center">Tecnologias</h1>
+
+          <div className="flex gap-2 flex-wrap justify-evenly">
+            <div className="flex flex-col gap-0 w-20 bg-[#111] rounded-md p-2">
+              <img src="/images/next-js-icon.png" alt="NextJS" />
+              <span className="font-medium text-center text-[1.2rem]">
+                NextJS
+              </span>
+            </div>
+
+            <div className="flex flex-col gap-0 w-20 bg-[#111] rounded-md p-2">
+              <img src="/images/react-js-icon.png" alt="NextJS" />
+              <span className="font-medium text-center text-[1.2rem]">
+                ReactJS
+              </span>
+            </div>
           </div>
-        </div>
+        </article>
       </section>
     </article>
   );
