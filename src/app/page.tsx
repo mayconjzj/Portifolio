@@ -2,7 +2,7 @@ import { Button } from '@/components/Button';
 
 export default function Home() {
   return (
-    <article className="flex flex-col mb-[35px]">
+    <>
       <section
         id="home"
         className="h-screen flex flex-col items-center justify-center gap-y-10"
@@ -32,40 +32,21 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="flex md:flex-row flex-col gap-10 justify-evenly px-[10%]">
-        <article id="about" className="flex flex-col gap-y-5 w-[100%]">
-          <h1 className="text-3xl font-bold text-center">Sobre mim</h1>
+      <section
+        className="flex flex-col gap-5 justify-evenly px-[10%] py-20 border-t-2 border-t-[#111] mb-10"
+        id="about"
+      >
+        <h1 className="text-3xl font-bold">Sobre mim</h1>
 
-          <p className="text-center">
-            Meu nome é Maycon Douglas, tenho 16 anos e resido em Boa Vista,
-            Roraima, Minha paixão pela tecnologia me levou a dominar tecnologias
-            como Next.js, React, Tailwind CSS, Styled-Components e Typescript.
-            Atualmente, estou buscando minha primeira oportunidade de estágio,
-            onde espero aplicar meu conhecimento e contribuir para projetos
-            inovadores.
-          </p>
-        </article>
-
-        <article id="skills" className="flex flex-col gap-y-5  w-[100%]">
-          <h1 className="text-3xl font-bold text-center">Tecnologias</h1>
-
-          <div className="flex gap-2 flex-wrap justify-evenly">
-            <div className="flex flex-col gap-0 w-20 bg-[#111] rounded-md p-2">
-              <img src="/images/next-js-icon.png" alt="NextJS" />
-              <span className="font-medium text-center text-[1.2rem]">
-                NextJS
-              </span>
-            </div>
-
-            <div className="flex flex-col gap-0 w-20 bg-[#111] rounded-md p-2">
-              <img src="/images/react-js-icon.png" alt="NextJS" />
-              <span className="font-medium text-center text-[1.2rem]">
-                ReactJS
-              </span>
-            </div>
-          </div>
-        </article>
+        <p className="text-justify w-[700px]">
+          Meu nome é Maycon Douglas, tenho 16 anos e resido em Boa Vista,
+          Roraima, Minha paixão pela tecnologia me levou a dominar tecnologias
+          como Next.js, React, Tailwind CSS, Styled-Components e Typescript.
+          Atualmente, estou buscando minha primeira oportunidade de estágio,
+          onde espero aplicar meu conhecimento e contribuir para projetos
+          inovadores.
+        </p>
       </section>
-    </article>
+    </>
   );
 }
