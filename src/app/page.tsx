@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <>
       <Section id="home">
-        <div className="flex flex-col items-center justify-center gap-y-10">
+        <div className="flex flex-col items-center justify-center gap-y-10 h-[calc(100vh-140px)]">
           <div>
-            <h1 className="md:text-6xl text-4xl font-black text-slate-100 md:max-w-2xl max-w-md flex flex-wrap md:gap-y-7 gap-y-4 mx-auto justify-center">
+            <h1 className="md:text-6xl text-4xl text-center font-black text-[#eee] md:max-w-2xl max-w-md flex flex-col md:gap-y-7 gap-y-2 justify-center">
               Olá, eu sou
               <span className="md:h-[70px] h-[43px] bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent bg-[length:170%] animate-[gradient_5s_ease-in-out_infinite]">
                 Maycon Douglas

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainNav should render the mainnav 1`] = `
+<div>
+  <section
+    class="flex flex-col gap-5 px-[10%] py-20 border-t-2 border-t-[#111] min-h-[60vh]"
+  >
+    Next test
+  </section>
+</div>
+`;
