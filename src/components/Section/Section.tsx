@@ -1,11 +1,18 @@
+'use client';
+
+import { useScrollReveal } from './hooks';
 import * as S from './styles';
 
-export const Section = ({
-  children,
-  id
-}: {
+type SectionProps = {
   children: React.ReactNode;
   id?: string;
-}) => {
-  return <S.Container id={id}>{children}</S.Container>;
+};
+export const Section = ({ children, id }: SectionProps) => {
+  useScrollReveal();
+
+  return (
+    <S.Container id={id} className="element">
+      {children}
+    </S.Container>
+  );
 };
