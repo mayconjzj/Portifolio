@@ -7,7 +7,7 @@ export const useScrollReveal = () => {
         const sr = ScrollReveal.default();
 
         sr.reveal('.element', {
-          origin: 'right',
+          origin: 'left',
           distance: '30px',
           duration: 1000,
           delay: 200,
