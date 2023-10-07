@@ -34,16 +34,27 @@ export default function Home() {
       </Section>
 
       <Section id="about">
-        <Title>Sobre mim</Title>
+        <div className="flex justify-between">
+          <div className="flex flex-col gap-y-5">
+            <Title>Sobre mim</Title>
 
-        <p>
-          Meu nome é Maycon Douglas, tenho 16 anos e resido em Boa Vista,
-          Roraima, Minha paixão pela tecnologia me levou a dominar tecnologias
-          como Next.js, React, Tailwind CSS, Styled-Components e Typescript.
-          Atualmente, estou buscando minha primeira oportunidade de estágio,
-          onde espero aplicar meu conhecimento e contribuir para projetos
-          inovadores.
-        </p>
+            <p className="max-w-[700px]">
+              Meu nome é Maycon Douglas, tenho 16 anos e resido em Boa Vista,
+              Roraima, Minha paixão pela tecnologia me levou a dominar
+              tecnologias como Next.js, React, Tailwind CSS, Styled-Components e
+              Typescript. Atualmente, estou buscando minha primeira oportunidade
+              de estágio, onde espero aplicar meu conhecimento e contribuir para
+              projetos inovadores.
+            </p>
+          </div>
+
+          <img
+            src="/images/laptop-phone.png"
+            alt="laptop-phone"
+            width={320}
+            className="hidden lg:block"
+          />
+        </div>
       </Section>
 
       <Section id="projects">
