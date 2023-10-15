@@ -12,8 +12,7 @@ export const useScrollReveal = () => {
           duration: 1000,
           delay: 200,
           mobile: true,
-          viewFactor: 0.2,
-          reset: true
+          viewFactor: 0.2
         });
       });
     }

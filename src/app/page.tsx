@@ -56,38 +56,6 @@ export default function Home() {
           />
         </div>
       </Section>
-
-      <Section id="projects">
-        <Title>Projetos</Title>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-          dicta temporibus et dignissimos perspiciatis praesentium, excepturi
-          expedita, neque ad sed earum natus ab labore repellendus enim?
-          Asperiores repudiandae dolore sed?
-        </p>
-      </Section>
-
-      <Section id="skills">
-        <Title>Habilidades</Title>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel non eius
-          ducimus facilis, sapiente eaque est repellat nisi incidunt recusandae
-          rem animi. Tenetur cum vitae sunt aliquid. Fuga, magni enim.
-        </p>
-      </Section>
-
-      <Section id="contact">
-        <Title>Contato</Title>
-
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
-          necessitatibus corrupti voluptatem eius dolores numquam vel provident
-          omnis ducimus nisi perferendis quis, facilis ipsa, alias eaque
-          reprehenderit ex nostrum enim!
-        </p>
-      </Section>
     </>
   );
 }
