@@ -47,13 +47,30 @@ export default function Home() {
               projetos inovadores.
             </p>
           </div>
+        </div>
+      </Section>
 
-          <img
-            src="/images/laptop-phone.png"
-            alt="laptop-phone"
-            width={320}
-            className="hidden lg:block"
-          />
+      <Section id="projects">
+        <div className="flex flex-col gap-y-5">
+          <Title>Projetos</Title>
+
+          <p>Em andamento</p>
+        </div>
+      </Section>
+
+      <Section id="skills">
+        <div className="flex flex-col gap-y-5">
+          <Title>Habilidades</Title>
+
+          <p>Em andamento</p>
+        </div>
+      </Section>
+
+      <Section id="contact">
+        <div className="flex flex-col gap-y-5">
+          <Title>Contato</Title>
+
+          <p>Em andamento</p>
         </div>
       </Section>
     </>
