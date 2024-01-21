@@ -1,17 +1,12 @@
-'use client';
-
 import { Link } from '@/components/Link';
 import { List, ListItem } from '@/components/List';
 
 import { MainNavProps } from '@/models';
 
 import { ToggleButton } from './components';
-import { useMainNav } from './hooks';
 import * as S from './styles';
 
 export const MainNav = ({ items }: { items: MainNavProps[] }) => {
-  const { isOpenMenu, handleToggleMenu } = useMainNav();
-
   return (
     <>
       <S.MainNav>
@@ -24,10 +19,7 @@ export const MainNav = ({ items }: { items: MainNavProps[] }) => {
         </List>
       </S.MainNav>
 
-      <ToggleButton
-        isOpenMenu={isOpenMenu}
-        handleToggleMenu={handleToggleMenu}
-      />
+      <ToggleButton />
     </>
   );
 };

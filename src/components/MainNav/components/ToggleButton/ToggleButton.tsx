@@ -1,13 +1,13 @@
+'use client';
+
 import { HiBars2, HiXMark } from 'react-icons/hi2';
 
-import { ToggleButtonProps } from '@/models';
-
+import { useToggleMenu } from './hooks';
 import * as S from './styles';
 
-export const ToggleButton = ({
-  isOpenMenu = false,
-  handleToggleMenu
-}: ToggleButtonProps) => {
+export const ToggleButton = () => {
+  const { isOpenMenu, handleToggleMenu } = useToggleMenu();
+
   return (
     <S.Content onClick={handleToggleMenu}>
       {!isOpenMenu && <HiBars2 />}
