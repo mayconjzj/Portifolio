@@ -1,23 +1,30 @@
-import { Link } from '@/components/Link';
-import { List, ListItem } from '@/components/List';
+import { twMerge } from 'tailwind-merge';
 
-import { MainNavProps } from '@/models';
+import { ActiveLink } from '@/components/ActiveLink';
+import { List } from '@/components/List';
+
+import { MainNavProps } from '@/models/MainNav';
 
 import { ToggleButton } from './components';
-import * as S from './styles';
 
-export const MainNav = ({ items }: { items: MainNavProps[] }) => {
+export const MainNav = ({
+  items,
+  ...rest
+}: {
+  items: MainNavProps[];
+  className?: string;
+}) => {
   return (
     <>
-      <S.MainNav>
-        <List>
+      <nav className={twMerge('hidden md:flex', rest.className)} {...rest}>
+        <List.Root>
           {items.map((item) => (
-            <ListItem key={item.title}>
-              <Link href={item.href}>{item.title}</Link>
-            </ListItem>
+            <List.Item key={item.title}>
+              <ActiveLink href={item.href}>{item.title}</ActiveLink>
+            </List.Item>
           ))}
-        </List>
-      </S.MainNav>
+        </List.Root>
+      </nav>
 
       <ToggleButton />
     </>

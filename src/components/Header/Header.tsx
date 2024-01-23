@@ -3,14 +3,12 @@ import { LogoConfig, MainNavConfig } from '@/config';
 import { Logo } from '@/components/Logo';
 import { MainNav } from '@/components/MainNav';
 
-import * as S from './styles';
-
 export const Header = () => {
   return (
-    <S.Header>
+    <header className="z-50 flex justify-between items-center h-[60px] w-screen px-[10%] bg-black fixed top-0">
       <Logo ContentLogo={LogoConfig.ContentLogo} />
 
       <MainNav items={MainNavConfig} />
-    </S.Header>
+    </header>
   );
 };

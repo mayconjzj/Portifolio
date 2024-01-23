@@ -1,5 +1,4 @@
-export type SectionProps = {
+export type TitleProps = {
   children: React.ReactNode;
-  id: string;
   className?: string;
 };

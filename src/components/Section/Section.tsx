@@ -1,11 +1,18 @@
-import { SectionProps } from '@/models';
+import { twMerge } from 'tailwind-merge';
 
-import * as S from './styles';
+import { SectionProps } from '@/models/Section';
 
-export const Section = ({ children, id }: SectionProps) => {
+export const Section = ({ children, id, ...rest }: SectionProps) => {
   return (
-    <S.Container id={id} className="element">
+    <section
+      id={id}
+      className={twMerge(
+        'element flex flex-col gap-5 px-[10%] py-20 border-t-2 border-t-[#111] min-h-[60vh]',
+        rest.className
+      )}
+      {...rest}
+    >
       {children}
-    </S.Container>
+    </section>
   );
 };

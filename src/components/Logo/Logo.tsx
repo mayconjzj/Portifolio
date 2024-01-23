@@ -1,16 +1,14 @@
 import Link from 'next/link';
 
-import { LogoProps } from '@/models';
-
-import * as S from './styles';
+import { LogoProps } from '@/models/Logo';
 
 export const Logo = ({ ContentLogo, Description }: LogoProps) => {
   return (
-    <S.Logo>
+    <div className="flex justify-center flex-col">
       <Link href="/">
-        <S.ContentLogo>{ContentLogo}</S.ContentLogo>
-        {Description && <S.Description>{Description}</S.Description>}
+        <span className="font-medium text-[20px]">{ContentLogo}</span>
+        {Description && <span className="text-blue-900">{Description}</span>}
       </Link>
-    </S.Logo>
+    </div>
   );
 };

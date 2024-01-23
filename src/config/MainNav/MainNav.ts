@@ -1,9 +1,9 @@
-import { MainNavProps } from '@/models';
+import { MainNavProps } from '@/models/MainNav';
 
 export const MainNavConfig: MainNavProps[] = [
   {
     title: 'Home',
-    href: '#home'
+    href: '#'
   },
   {
     title: 'Sobre mim',
@@ -11,7 +11,7 @@ export const MainNavConfig: MainNavProps[] = [
   },
   {
     title: 'Projetos',
-    href: '#projects'
+    href: '#rojects'
   },
   {
     title: 'Habilidades',

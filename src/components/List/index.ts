@@ -1,2 +1,7 @@
-export { List } from './List';
-export { ListItem } from './components/ListItem';
+import { ListItem } from './ListItem';
+import { ListRoot } from './ListRoot';
+
+export const List = {
+  Root: ListRoot,
+  Item: ListItem
+};
