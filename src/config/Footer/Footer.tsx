@@ -1,6 +1,6 @@
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
-import { FooterProps } from '@/models';
+import { FooterProps } from '@/models/Footer';
 
 export const FooterConfig: FooterProps[] = [
   {

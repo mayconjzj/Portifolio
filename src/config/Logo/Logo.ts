@@ -1,4 +1,4 @@
-import { LogoProps } from '@/models';
+import { LogoProps } from '@/models/Logo';
 
 export const LogoConfig: LogoProps = {
   ContentLogo: 'Maycon Douglas',
